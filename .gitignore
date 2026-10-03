@@ -1,0 +1,32 @@
+# Database / local configuration
+.env
+.env.*
+!.env.example
+
+# MySQL database dumps
+*.sql
+*.sql.gz
+
+# XAMPP / local server files
+xampp/
+php_errorlog
+error_log
+*.log
+
+# User-uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Temporary/cache files
+tmp/
+temp/
+cache/
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

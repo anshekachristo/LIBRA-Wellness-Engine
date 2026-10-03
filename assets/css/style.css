@@ -1,0 +1,69 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(120deg, #00b67a, #0141a2);
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: rgba(0,0,0,0.3);
+}
+
+.searchbar {
+  text-align: center;
+  padding: 20px;
+}
+
+.searchbar input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.searchbar button {
+  padding: 10px 20px;
+  background: #00b67a;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  margin-left: 10px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.cards div {
+  background: rgba(255,255,255,0.1);
+  border-radius: 10px;
+  padding: 15px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.user-profile-box {
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ddd;
+}
+.user-profile-box img {
+  border: 2px solid #4fc1e9;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  background: rgba(0,0,0,0.2);
+}
